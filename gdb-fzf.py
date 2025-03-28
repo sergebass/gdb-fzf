@@ -190,7 +190,7 @@ def get_fzf_result(query: bytes, complete_str_list: List[bytes]) -> bytes:
     if HELP:
         help_fd, t = generate_help_file(complete_str_list)
 
-    echo_str = "{..}$"
+    echo_str = "{..}"
     pid = os.getpid()
     args = ['fzf',
             '--print0',

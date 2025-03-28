@@ -1,0 +1,15 @@
+# temporary/backup files
+*.bak
+*~
+*_
+\#*\#
+.\#*
+
+# various user-specific vim files
+*.swp
+Session.vim
+
+# ctags tag files
+tags
+tags.lock
+tags.temp
